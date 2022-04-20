@@ -32,6 +32,11 @@ dependencies {
 
     implementation("org.flywaydb:flyway-core:8.5.1")
     implementation("org.flywaydb:flyway-community-db-support:8.5.1")
+
+//    kotlin suppirts
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.6.0")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.71")
+    runtimeOnly("org.jetbrains.kotlin:kotlin-reflect:1.6.0")
 }
 
 tasks.withType<KotlinCompile> {

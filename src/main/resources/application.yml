@@ -11,8 +11,12 @@ spring:
     user: root
     baseline-on-migrate: true
 
+
+  jpa:
+    hibernate:
+      use-new-id-generator-mappings: false
+
 spring.session.jdbc.initialize-schema: always
-#spring.jpa.hibernate.ddl-auto: validate
 
 server:
   port: 8082
